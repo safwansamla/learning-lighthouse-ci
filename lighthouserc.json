@@ -2,6 +2,7 @@
   "ci": {
     "assert": {
       "preset": "lighthouse:recommended",
+      "budgetsFile": "budgets.json",
       "assertions": {
         "categories.pwa": "off",
         "bypass": ["error", {"minScore": 0}],
