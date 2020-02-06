@@ -1,0 +1,13 @@
+name: LHCI
+on: [push]
+
+jobs:
+  runs-on: ubuntu-latest
+  steps:
+    - uses: actions/checkout@v2
+    - name: Run lighthouse ci
+      uses: ./
+      with:
+        urls: |
+          https://www.google.com
+        temporaryPublicStorage: true
