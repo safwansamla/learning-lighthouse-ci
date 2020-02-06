@@ -5,6 +5,6 @@ before_install:
   - npm install -g @lhci/cli@0.3.x
 script:
   - npm run build
-  - lhci autorun --upload.target=temporary-public-storage --assert.preset=lighthouse:recommended
+  - lhci autorun --upload.target=temporary-public-storage 
 addons:
   chrome: stable
