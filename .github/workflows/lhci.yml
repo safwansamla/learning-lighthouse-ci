@@ -1,6 +1,5 @@
 name: LHCI
-on: [push]
-
+on: push
 jobs:
   runs-on: ubuntu-latest
   steps:
