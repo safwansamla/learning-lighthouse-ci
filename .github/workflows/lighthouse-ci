@@ -1,0 +1,13 @@
+name: Lighthouse
+on: push
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Audit URLs using Lighthouse
+      uses: ./
+      with:
+        urls: |
+          https://www.google.com
+        temporaryPublicStorage: true
