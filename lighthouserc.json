@@ -1,3 +1,7 @@
 {
-  "budgetsFile": "budgets.json"
+  "ci": {
+    "assert": {
+      "preset": "lighthouse:all"
+    }
+  }
 }
