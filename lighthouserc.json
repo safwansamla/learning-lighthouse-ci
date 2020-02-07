@@ -1,6 +1,3 @@
 {
-  "ci": 
-  {
-    "budgetsFile": "budgets.json"
-  }
+  "budgetsFile": "budgets.json"
 }
